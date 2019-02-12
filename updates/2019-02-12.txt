@@ -1,3 +1,4 @@
+Morning
 Style:
     modern
     simple
@@ -16,3 +17,9 @@ Make it Interesting:
     animate headers on load
     link reflections to their respective youtube video
     link projects to their respective git repo
+Afternoon
+Progress:
+    basic layout of each page
+    placeholders and real+fake links
+    super super basic styling without font or color
+    all the code is commented! check it out!

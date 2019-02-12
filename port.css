@@ -1,0 +1,99 @@
+div{
+    margin: 100px;
+    padding: 5px;
+}
+.navClass{
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.aboutClass{
+    margin: 10px;
+    text-align: justify;
+    padding: 10px;
+}
+.contactClass{
+    margin: 5px;
+    padding: 10px;
+}
+.nextPage{
+    padding: 5px;
+    margin: 10px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+/*sizing nav bar icons*/
+img{
+    height: 20px;
+    width: 20px;
+}
+/*styling nav bar text for on hover*/
+button{
+    background: none;
+    border: none;
+    color: darkblue;
+}
+/*page2 specific grid display and some styling*/
+.container2{
+    display: grid;
+    grid-template-areas:
+            "header header"
+            "resume skills"
+            "resume education"
+            "footer footer";
+    /*grid-template-rows: 20px 400px;*/
+}
+.navClass2{
+    grid-area: header;
+    border-bottom: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+.resumeClass{
+    text-align: center;
+    grid-area: resume;
+    margin: 10px;
+    padding: 10px;
+}
+.skillsClass{
+    grid-area: skills;
+    margin: 10px;
+    padding: 10px;
+}
+.eductaionClass{
+    grid-area: education;
+    margin: 10px;
+    padding: 10px;
+}
+footer{
+    padding: 5px;
+    margin: 10px;
+    border-top: 1px solid black;
+    text-align: center;
+    grid-area: footer;
+}
+/*resume placeholder sizing*/
+#resizeThisImage{
+    width: 300px;
+    height: 400px;
+    margin: 0;
+}
+/*resize second set of placeholders*/
+.resizeThisImage2{
+    width: 100px;
+    height: 100px;
+}
+/*style headers that will be clicked*/
+.sectionHeading{
+    font-weight: lighter;
+    font-size: 40px;
+}
+table{
+    /*border: 1px solid blue;*/
+    padding: 10px;
+}
+td{
+    /*border: 1px solid red;*/
+    padding: 10px;
+
+}
