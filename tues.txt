@@ -1,0 +1,18 @@
+Style:
+    modern
+    simple
+    lots of whitespace/padding+margins
+    blue with orange accents
+    white text/dark blue headers
+    nova flat font (headers)
+
+Pages:
+    about/contact
+    resume/skills/education
+    projects
+    reflections
+
+Make it Interesting:
+    animate headers on load
+    link reflections to their respective youtube video
+    link projects to their respective git repo
