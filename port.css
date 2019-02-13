@@ -1,6 +1,7 @@
 div{
-    margin: 100px;
+    margin: 25px;
     padding: 5px;
+    font-size: 15px;
 }
 .navClass{
     margin: 10px;
@@ -15,6 +16,7 @@ div{
 .contactClass{
     margin: 5px;
     padding: 10px;
+
 }
 .nextPage{
     padding: 5px;
@@ -31,7 +33,7 @@ img{
 button{
     background: none;
     border: none;
-    color: darkblue;
+    color: black;
 }
 /*page2 specific grid display and some styling*/
 .container2{
@@ -39,32 +41,28 @@ button{
     grid-template-areas:
             "header header"
             "resume skills"
-            "resume education"
+            "resume skills"
             "footer footer";
-    /*grid-template-rows: 20px 400px;*/
 }
 .navClass2{
     grid-area: header;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid black;
     margin: 10px;
     padding: 10px;
 }
 .resumeClass{
-    text-align: center;
+    /*text-align: center;*/
     grid-area: resume;
     margin: 10px;
     padding: 10px;
 }
-.skillsClass{
+.textContent{
     grid-area: skills;
     margin: 10px;
     padding: 10px;
+    border: 1px dashed black;
 }
-.eductaionClass{
-    grid-area: education;
-    margin: 10px;
-    padding: 10px;
-}
+
 footer{
     padding: 5px;
     margin: 10px;
@@ -77,17 +75,22 @@ footer{
     width: 300px;
     height: 400px;
     margin: 0;
+    padding: 0;
 }
 /*resize second set of placeholders*/
 .resizeThisImage2{
     width: 100px;
     height: 100px;
 }
-/*style headers that will be clicked*/
-.sectionHeading{
-    font-weight: lighter;
-    font-size: 40px;
+.resizeThisIcon{
+    width: 40px;
+    height: 40px;
 }
+/*style headers that will be clicked*/
+/*.sectionHeading{*/
+    /*font-weight: lighter;*/
+    /*font-size: 20px;*/
+/*}*/
 table{
     /*border: 1px solid blue;*/
     padding: 10px;
@@ -96,4 +99,8 @@ td{
     /*border: 1px solid red;*/
     padding: 10px;
 
+}
+/*style page titles*/
+h4{
+    font-size: 30px;
 }
