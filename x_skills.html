@@ -5,44 +5,38 @@
     <title>skills</title>
     <!--all pages are styled in one CSS-->
     <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="animate.css">
     <script src="jQuery.js"></script>
 </head>
 <!--portfolio skills page-->
-<!--this page includes resume pdf placeholder, dynamic skills section, and dynamic education section-->
+<!--this page includes dynamic skills section and dynamic education section-->
 <body>
 <!--container class for grid display-->
 <div class="container2">
     <!--header with page title-->
     <header class="navClass2">
-        <h4>skills</h4>
+        <h4 class="animated fadeIn">skills</h4>
     </header>
-    <!--dynamic skills section-->
-    <!--placeholder resume image(pdf)-->
-    <section class="resumeClass">
-        <h4>resume</h4>
-        <img id="resizeThisImage" src="icons/placeholder.png" alt="placeholder">
-        <!--placeholder download link-->
-        <p><button>click to download</button></p>
-    </section>
+    <!--dynamic skills and education section-->
     <section class="textContent">
-        <h4  class="sectionHeading" id="mySkillsHeading">technical skills</h4>
-        <p class="mySkills" hidden>LOREUM</p>
-        <p class="mySkills" hidden>LOREUM</p>
-        <p class="mySkills" hidden>LOREUM</p>
-        <p class="mySkills" hidden>LOREUM</p>
-        <h4 class="sectionHeading" id="myEduHeading">education</h4>
-        <p class="myEdu" hidden>LOREUM</p>
-        <p class="myEdu" hidden>LOREUM</p>
+        <h4 class="clickHeading">technical skills</h4>
+        <!--button for drop down-->
+        <button id="skillsBtnShow"><img src="icons/arrow2.png"></button>
+        <ul hidden class="mySkills">
+            <li>loreum</li>
+            <li>loreum</li>
+        </ul>
+        <h4 class="clickHeading">education</h4>
+        <!--button for drop down-->
+        <button id="eduBtnShow"><img src="icons/arrow2.png"></button>
+        <ul class="myEdu" hidden>
+            <li>loreum</li>
+            <li>loreum</li>
+        </ul>
     </section>
-    <!--dynamic education section-->
-    <!--<section>-->
-        <!--<h4 class="sectionHeading" id="myEduHeading">education</h4>-->
-        <!--<p class="myEdu" hidden>LOREUM</p>-->
-        <!--<p class="myEdu" hidden>LOREUM</p>-->
-    <!--</section>-->
     <!--next page button-->
     <footer>
-        <a href="x_projects.html"><button><img class="resizeThisIcon" src="icons/arrow.png" alt="downarrow"></button></a>
+        <a href="x_resume.html"><button><img class="resizeThisIcon" src="icons/arrow.png" alt="downarrow"></button></a>
     </footer>
 </div>
 <script src="port.js"></script>

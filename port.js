@@ -8,6 +8,10 @@ $("#skillsBtn").hover(skillsText);
 function skillsText() {
     $(this).text("skills")
 }
+$("#resumeBtn").hover(resumeText);
+function resumeText() {
+    $(this).text("resume")
+}
 $("#projectsBtn").hover(projectText);
 function projectText() {
     $(this).text("projects")
@@ -23,17 +27,17 @@ function backToIcon(){
 //show skills
 //try to get this to work with on hover instead of onclick
 //and find some cooler fonts
-$("#mySkillsHeading").on("click", showSkills);
+$("#skillsBtnShow").click(showSkills);
 function showSkills() {
-    $(this).text("");
+    // $(this).text("");
     $(".mySkills").removeAttr("hidden")
 }
 //show education
 //try to get this to work with on hover instead of onclick
 //and find some cooler fonts
-$("#myEduHeading").on("click", showEdu);
+$("#eduBtnShow").click(showEdu);
 function showEdu() {
-    $(this).text("");
+    // $(this).text("");
     $(".myEdu").removeAttr("hidden")
 }
 

@@ -1,8 +1,44 @@
+/*styling across pages*/
 div{
     margin: 25px;
     padding: 5px;
     font-size: 15px;
 }
+/*style page titles*/
+h4{
+    font-size: 30px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+/*styling buttons*/
+button{
+    background: none;
+    border: none;
+    color: gray;
+}
+/*style links*/
+a{
+    color: gray;
+}
+/*style in page headers*/
+.secondaryHeading{
+    font-size: 20px;
+}
+/*resize second set of placeholders*/
+.resizeThisImage2{
+    width: 100px;
+    height: 100px;
+}
+.resizeThisIcon{
+    width: 40px;
+    height: 40px;
+}
+.smallIcon{
+    width: 15px;
+    height: 15px;
+}
+/************************************************************/
+/*about specific styling*/
 .navClass{
     margin: 10px;
     padding: 10px;
@@ -14,9 +50,13 @@ div{
     padding: 10px;
 }
 .contactClass{
-    margin: 5px;
+    margin: 10px;
     padding: 10px;
-
+}
+/*style headers that will be clicked*/
+.sectionHeading{
+    font-weight: lighter;
+    font-size: 20px;
 }
 .nextPage{
     padding: 5px;
@@ -26,41 +66,23 @@ div{
 }
 /*sizing nav bar icons*/
 img{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
-/*styling nav bar text for on hover*/
-button{
-    background: none;
-    border: none;
-    color: black;
-}
-/*page2 specific grid display and some styling*/
-.container2{
-    display: grid;
-    grid-template-areas:
-            "header header"
-            "resume skills"
-            "resume skills"
-            "footer footer";
-}
+/************************************************************/
+/*skills specific grid display and some styling*/
 .navClass2{
-    grid-area: header;
     border-bottom: 1px solid black;
     margin: 10px;
     padding: 10px;
 }
-.resumeClass{
-    /*text-align: center;*/
-    grid-area: resume;
+.textContent{
     margin: 10px;
     padding: 10px;
 }
-.textContent{
-    grid-area: skills;
-    margin: 10px;
-    padding: 10px;
-    border: 1px dashed black;
+/*CHANGE color to anything less gross*/
+.clickHeading{
+    color: gray;
 }
 
 footer{
@@ -70,27 +92,8 @@ footer{
     text-align: center;
     grid-area: footer;
 }
-/*resume placeholder sizing*/
-#resizeThisImage{
-    width: 300px;
-    height: 400px;
-    margin: 0;
-    padding: 0;
-}
-/*resize second set of placeholders*/
-.resizeThisImage2{
-    width: 100px;
-    height: 100px;
-}
-.resizeThisIcon{
-    width: 40px;
-    height: 40px;
-}
-/*style headers that will be clicked*/
-/*.sectionHeading{*/
-    /*font-weight: lighter;*/
-    /*font-size: 20px;*/
-/*}*/
+/************************************************************/
+/*CHANGE tables on pages 3 and 4 to grids or inline block display*/
 table{
     /*border: 1px solid blue;*/
     padding: 10px;
@@ -100,7 +103,13 @@ td{
     padding: 10px;
 
 }
-/*style page titles*/
-h4{
-    font-size: 30px;
+/*resume specific styling*/
+/*resume placeholder sizing*/
+#resizeThisImage{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 0;
 }
+
+

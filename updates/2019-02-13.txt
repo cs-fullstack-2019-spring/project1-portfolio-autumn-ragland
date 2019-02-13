@@ -1,0 +1,7 @@
+Morning:
+    resume page added and formatted
+    about page contact section filled out
+    header animation on all pages
+    CSS reformatting for legibility
+    skills page reformatted
+    dynamic gradient background (not styled)
