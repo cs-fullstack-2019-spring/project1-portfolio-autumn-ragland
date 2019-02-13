@@ -5,3 +5,12 @@ Morning:
     CSS reformatting for legibility
     skills page reformatted
     dynamic gradient background (not styled)
+Afternoon:
+    projects page reformatted into grid
+    reflections page reformatted into grid
+    font chosen (might change)
+    some styling (red bar)(might change)
+    reflections link set up (ready for real link drag and drop)
+    additional section added to all pages for brief description of the contents
+    hyperlink style changed (will be updated)
+    CSS reformatted (again)

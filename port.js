@@ -29,15 +29,14 @@ function backToIcon(){
 //and find some cooler fonts
 $("#skillsBtnShow").click(showSkills);
 function showSkills() {
-    // $(this).text("");
-    $(".mySkills").removeAttr("hidden")
+    $(".mySkills").removeAttr("hidden");
 }
+
 //show education
 //try to get this to work with on hover instead of onclick
 //and find some cooler fonts
 $("#eduBtnShow").click(showEdu);
 function showEdu() {
-    // $(this).text("");
     $(".myEdu").removeAttr("hidden")
 }
 
