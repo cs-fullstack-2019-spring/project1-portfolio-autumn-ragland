@@ -1,13 +1,12 @@
 /*MULTI PAGE STYLES*/
 /*add margins*/
-body{
-    /*background: #797979;*/
-    /*color: white;*/
-}
 div{
-    margin: 25px;
-    padding: 5px;
-    font-size: 15px;
+    margin-top:1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    font-size: 20px;
     font-family: 'Domine', serif;
 }
 /*style page titles*/
@@ -20,30 +19,19 @@ h4{
 button{
     background: none;
     border: none;
-    color: gray;
+    color: darkred;
 }
 /*style links*/
 a{
-    color: gray;
+    color: darkred;
     text-decoration: none;
 }
 /*style footer*/
 footer{
-    padding: 5px;
-    margin: 10px;
-    border-top: 1px solid red;
+    border-top: 1px solid darkred;
     text-align: center;
 }
-/*style section*/
-section{
-    margin: 12px;
-    font-family: 'Domine', serif;
-}
-/*style in page headers*/
-.secondaryHeading{
-    font-size: 20px;
-}
-/*resize second set of placeholders*/
+/*resize placeholders and icons*/
 .resizeThisImage2{
     width: 300px;
     height: 150px;
@@ -61,7 +49,7 @@ section{
 .navClass{
     margin: 10px;
     padding: 10px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid darkred;
 }
 .aboutClass{
     margin: 10px;
@@ -72,16 +60,6 @@ section{
     margin: 10px;
     padding: 10px;
 }
-/*style headers that will be clicked*/
-.sectionHeading{
-    font-weight: lighter;
-    font-size: 20px;
-}
-.nextPage{
-    padding: 5px;
-    margin: 10px;
-    text-align: center;
-}
 /*sizing nav bar icons*/
 img{
     height: 25px;
@@ -89,12 +67,6 @@ img{
 }
 /************************************************************/
 /*SKILLS*/
-/*add bottom border thing*/
-.navClass2{
-    border-bottom: 1px solid red;
-    margin: 10px;
-    padding: 10px;
-}
 /*grid display*/
 .container2{
      display: grid;
@@ -132,7 +104,7 @@ img{
 }
 #eduBtnShow{
     grid-column: 3/4;
-    grid-row: 6;
+    grid-row: 5;
     text-align: left;
 
 }
@@ -144,11 +116,6 @@ img{
     grid-column: 1/4;
     grid-row: 7;
 }
-/*CHANGE color to anything less gross*/
-/*.clickHeading{*/
-    /*color: gray;*/
-/*}*/
-
 /************************************************************/
 /*RESUME*/
 /*resume placeholder sizing*/
@@ -158,6 +125,7 @@ img{
     margin: 10px;
     padding: 0;
 }
+/*grid display*/
 .container5{
     display: grid;
     grid-template-columns: auto;

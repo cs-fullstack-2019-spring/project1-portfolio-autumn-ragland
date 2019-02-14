@@ -1,0 +1,11 @@
+Morning:
+filler text replaced with actual text
+hyperlinks to open in new page
+small color changes
+new margins
+reformatted CSS (AGAIN)
+nav bar hover button fix
+previous page button
+back to home button
+complaining about my page being to simple
+Afternoon:
