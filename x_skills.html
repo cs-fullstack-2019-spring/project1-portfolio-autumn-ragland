@@ -9,42 +9,37 @@
     <script src="jQuery.js"></script>
 </head>
 <!--portfolio skills page-->
-<!--this page includes dynamic skills section and dynamic education section-->
-<body>
+<body class="skillPage">
 <!--container class for grid display-->
 <div class="container2">
     <!--header with page title-->
     <header class="navClass">
         <h4 class="animated fadeIn">skills</h4>
     </header>
-    <section class="description">
-        <p>My current skills and education are listed below. These lists will continue to grow as
-            I learn. Click the arrows to view.</p>
-    </section>
-    <!--dynamic skills section-->
+    <!--skills header-->
     <h4 class="clickHeading skillsHead animated fadeIn">technical skills</h4>
-    <!--button for drop down-->
-    <button id="skillsBtnShow"><img src="icons/arrow2.png"></button>
-    <ul hidden class="mySkills animated fadeIn">
-        <li>javascript</li>
-        <li>python</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Linux</li>
-        <li>Git Repository</li>
-    </ul>
-    <!--dynamic education section-->
+    <!--skills list-->
+    <section class="mySkills animated fadeIn">
+        <p><strong>languages</strong></p>
+        <p>JavaScript</p>
+        <p>python</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p><strong>systems</strong></p>
+        <p>linux</p>
+        <p>git repository</p>
+    </section>
+    <!--education header-->
     <h4 class="clickHeading eduHead animated fadeIn">education</h4>
-    <!--button for drop down-->
-    <button id="eduBtnShow"><img src="icons/arrow2.png"></button>
-    <ul class="myEdu animated fadeIn" hidden>
-            <li><a href="https://www.code-crew.org/codeschool"target="_blank">CodeCrew</a></li>
-
-    </ul>
+    <!--education list-->
+    <section class="myEdu animated fadeIn">
+            <p><a href="https://www.code-crew.org/codeschool" target="_blank">CodeCrew</a></p>
+    </section>
     <!--next/previous page button-->
     <footer>
         <a href="index.html"><button><img class="resizeThisIcon" src="icons/upArrow.png" alt="downarrow"></button></a>
         <a href="x_resume.html"><button><img class="resizeThisIcon" src="icons/downArrow.png" alt="downarrow"></button></a>
+        <p><a href="index.html"><button>BACK TO HOME</button></a></p>
     </footer>
 </div>
 <script src="port.js"></script>

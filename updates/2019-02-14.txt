@@ -1,11 +1,18 @@
 Morning:
-filler text replaced with actual text
-hyperlinks to open in new page
-small color changes
-new margins
-reformatted CSS (AGAIN)
-nav bar hover button fix
-previous page button
-back to home button
-complaining about my page being to simple
+    filler text replaced with actual text
+    hyperlinks to open in new page
+    small color changes
+    new margins
+    reformatted CSS (AGAIN)
+    nav bar hover button fix
+    previous page button
+    back to home button
+    complaining about my page being to simple
+
 Afternoon:
+    contact me form (which was rendered useless with a simple google form)
+    contact me footer on about page updated
+    font updated (will change)
+    wasted 30min on a video background that I scrapped
+    FINALLY a home page background image
+    div transparent background
