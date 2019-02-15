@@ -1,0 +1,12 @@
+Morning:
+    linked all vlogs
+    wrote reflection descriptions
+    header font (final)
+    iFrame resume
+    click to view/download in AdobePDF button
+    nav reconfiguration
+    coming to terms with my site being boring (remove background and color scheme)
+    contact page with embedded google form
+    probably a few more simple/small things
+
+Afternoon:
