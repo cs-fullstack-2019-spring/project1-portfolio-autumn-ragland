@@ -10,3 +10,6 @@ Morning:
     probably a few more simple/small things
 
 Afternoon:
+    linked 2 projects to projects page
+    skills page animation on hover
+    edit reflections text

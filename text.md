@@ -51,22 +51,22 @@ Each week of my coding bootcamp I film, edit, and upload a video describing the 
 covered in the week and my progress and struggles. These videos are a joy to film and edit. Click 
 the week number to view the video on youtube.
 reflections01:
-The first week of code crew code school was an introduction to coding. We covered using the terminal, github,
-a basic python overview, intellij and a basic javascript introduction. This week was full of new and exciting information
+The first week of CodeCrew coding bootcamp was an introduction to coding. We covered a range of topics including, using the terminal, github,
+a basic Python overview, intellij and a basic JavaScript introduction. This week was full of new and exciting information
 about coding and the specifics of CodeCrew's program. Click to number 01 to view the fill video describing my impression 
 of the first week!
 reflections02:
-The second week of coding bottcamp provided a more in-depth look into JavaScript. We learned the basics of arrays,classes and objects,
-switch case, and scope. We also began a python introduction. Two languages in one wek! Click the number 02 to view
+The second week of coding bootcamp provided a more in-depth look into JavaScript. We learned the basics of arrays,classes and objects,
+switch case, and scope. We also began a Python introduction. Two languages in one week! Click the number 02 to view
 the full video describing my impression of the second week.
 reflections03:
-By the third week I had finally settled into the structure of the class and found an effective study method. This week we learned python
+By the third week I had finally settled into the structure of the class and found an effective study method. This week we learned Python
 basics. We covered loops,string formatting,data types, and functions. Python and JavaScript built on one another nicely 
 and this week went smoothly. Click the number 03 the view the full video describing my impression of the third week.
 reflections04:
-The fourth week was a relatively simple introduction to HTML and CSS. We began the week with a brief review of python and quickly moved into
+The fourth week was a relatively simple introduction to HTML and CSS. We began the week with a brief review of Python and quickly moved into
 creating simple webpages. This was one of my favorite weeks so far. Click the number 04 to view the full video describing
-my impressions of the fourth week along with a few example of the webpages we designed.
+my impressions of the fourth week along with a few example of the simple webpages I designed.
 reflections05:
 Week five brought most of the skills we have been learning so far together. We linked JavaScript files to our HTML files to make
 our webpages dynamic. We also learned JQuery this week. These introductions made our webpages a little more complex. Click the number 05

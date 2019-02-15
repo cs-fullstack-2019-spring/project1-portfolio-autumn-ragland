@@ -32,6 +32,8 @@ a{
     font-weight: bold;
     text-decoration: none;
     font-family: 'Inconsolata', monospace;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /*style footer*/
 footer{
@@ -40,8 +42,8 @@ footer{
 }
 /*resize placeholders and icons*/
 .resizeThisImage2{
-    width: 300px;
-    height: 150px;
+    width: auto;
+    height: 300px;
 }
 .resizeThisIcon{
     width: 40px;
@@ -113,7 +115,7 @@ img{
     padding: 10px;
 }
 .mySkills:hover{
-    color: orangered;
+    /*color: orangered;*/
 }
 .eduHead{
     grid-column: 3/4;
@@ -127,7 +129,7 @@ img{
     padding: 10px;
 }
 .myEdu:hover{
-    color: orangered;
+    /*color: orangered;*/
 }
 .container2>footer{
     grid-column: 1/4;

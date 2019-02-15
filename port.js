@@ -26,3 +26,15 @@ function backToIcon(){
     $(this).append("<img src=\'icons/orangeC.png\' alt=\'circleicon\'>");
 }
 
+$(".myEdu").hover(addPulse, removePulse);
+$(".mySkills").hover(addPulse, removePulse);
+function addPulse() {
+    $(this).removeClass("fadeIn");
+    $(this).addClass("pulse slow")
+}
+function removePulse() {
+    $(this).removeClass("pulse slow");
+}
+
+
+
