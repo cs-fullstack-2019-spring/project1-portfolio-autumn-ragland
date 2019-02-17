@@ -72,4 +72,7 @@ Week five brought most of the skills we have been learning so far together. We l
 our webpages dynamic. We also learned JQuery this week. These introductions made our webpages a little more complex. Click the number 05
 to view the full video describing my impressions of the fifth week!
 reflections06:
+This was our first big project week. On Monday I completed two smaller simple game projects using HTML CSS and JQuery. Tuesday through
+Thursday was dedicated to creating a portfolio website from scratch. Check out the full video describing my struggles and successes of the
+week by clicking on the number 06.
 
