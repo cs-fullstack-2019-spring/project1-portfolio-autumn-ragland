@@ -1,0 +1,3 @@
+Final Update:
+    fixed all arrow positions so that they are in the middle of the page (most noticeable on scroll on reflections and resume)
+    contact page added to rotation and iFrame centered

@@ -11,16 +11,28 @@
 <!--contact page-->
 <body>
 <!--container class for grid display-->
-<div class=".messageMe">
+<div id="myContactPage">
     <!--header with page title-->
     <header class="navClass">
         <h4 class="animated fadeIn slower">contact me</h4>
-        <p><a href="index.html"><button>BACK TO HOME</button></a></p>
+        <a href="index.html"><button id="homeBtn"><img src="../icons/homeicon.png" alt="circleicon"></button></a>
+        <a href="skills.html"><button id="skillsBtn"><img src="../icons/skillsison.png" alt="circleicon"></button></a>
+        <a href="resume.html"><button id="resumeBtn"><img src="../icons/resumeicon.png" alt="circleicon"></button></a>
+        <a href="projects.html"><button id="projectsBtn"><img src="../icons/projecticon.png" alt="circleicon"></button></a>
+        <a href="reflections.html"><button id="reflectionBtn"><img src="../icons/reflectionicon.png" alt="circleicon"></button></a>
+        <a href="contact.html"><button><img src="../icons/contacticon.png" alt="circleicon"></button></a>
     </header>
     <!--embedded google form-->
     <section>
         <iframe class="iframeStyle" src="https://docs.google.com/forms/d/e/1FAIpQLSfIqZGo3qZmEfVZ2XC6n28Z9b3STDKQrsIvMYXQDHtH_vFDfA/viewform?embedded=true" width="640" height="790" frameborder="0" >Loading...</iframe>
     </section>
+    <!--next page previous page button-->
+    <footer class="theNextPage">
+        <a href="reflections.html"><button><img class="resizeThisIcon" src="../icons/previousPage.png" alt="downarrow"></button></a>
+    </footer>
+    <footer class="thePreviousPage">
+        <a href="index.html"><button><img class="resizeThisIcon" src="../icons/nextPage.png" alt="downarrow"></button></a>
+    </footer>
 </div>
 <script src="../CSS%20and%20JS/port.js"></script>
 </body>

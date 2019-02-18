@@ -70,10 +70,9 @@ a{
     grid-row: 3;
 }
 .theNextPage{
-    grid-column: 2/2;
-    grid-row: 1/4;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: fixed;
+    top: 40%;
+    right: 5%;
 }
 /*sizing nav bar icons*/
 img{
@@ -121,14 +120,14 @@ img{
     padding: 10px;
 }
 .container2>.theNextPage{
-    grid-column: 1;
-    grid-row: 1/4;
+    position: fixed;
+    top: 50%;
+    left: 5%;
 }
 .container2>.thePreviousPage{
-    grid-column: 4;
-    grid-row: 1/4;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: fixed;
+    top: 50%;
+    right: 5%;
 }
 /************************************************************/
 /*RESUME*/
@@ -164,14 +163,14 @@ img{
     text-align: center;
 }
 .container5>.theNextPage{
-    grid-column: 1;
-    grid-row: 1/4;
+    position: fixed;
+    top: 50%;
+    left: 5%;
 }
 .container5>.thePreviousPage{
-    grid-column: 5;
-    grid-row: 1/4;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: fixed;
+    top: 50%;
+    right: 5%;
 }
 /************************************************************/
 /*PROJECTS*/
@@ -215,14 +214,14 @@ img{
     margin: 12px;
 }
 .container3>.theNextPage{
-    grid-column: 1;
-    grid-row: 1/4;
+    position: fixed;
+    top: 50%;
+    left: 5%;
 }
 .container3>.thePreviousPage{
-    grid-column: 5;
-    grid-row: 1/4;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: fixed;
+    top: 50%;
+    right: 5%;
 }
 /************************************************************/
 /*REFLECTIONS*/
@@ -276,33 +275,30 @@ img{
     margin: 12px;
 }
 .container4>.theNextPage{
-    grid-column: 1;
-    grid-row: 3/5;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: fixed;
+    top: 50%;
+    left: 5%;
 }
 .container4>.thePreviousPage{
-    grid-column: 5;
-    grid-row: 3/5;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: fixed;
+    top: 50%;
+    right: 5%;
 }
 /*****************************************************************/
 /*contact page*/
-/*grid display*/
-.messageMe{
-    display: grid;
-    grid-template-columns: 5% auto 5%;
-    grid-template-rows: auto;
-}
-.messageMe>header{
-    grid-column: 1/4;
-    grid-row: 1;
-}
 .iframeStyle{
-    grid-column: 2/3;
-    grid-row: 2;
-    margin-top: 12px;
-    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#myContactPage>.theNextPage{
+    position: fixed;
+    top: 50%;
+    left: 5%;
+}
+#myContactPage>.thePreviousPage{
+    position: fixed;
+    top: 50%;
+    right: 5%;
 }
 
