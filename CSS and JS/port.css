@@ -105,8 +105,9 @@ img{
     margin: 12px;
     padding: 10px;
 }
-.mySkills:hover{
-    /*color: orangered;*/
+td{
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 .eduHead{
     grid-column: 3;
