@@ -155,12 +155,12 @@ td{
 }
 .resume{
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 3;
     text-align: center;
 }
 .container5>.description{
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 2;
     text-align: center;
 }
 .container5>.theNextPage{
@@ -205,7 +205,7 @@ td{
     margin: 12px;
 }
 .projectSection3{
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 4;
     margin: 12px;
 }
@@ -273,6 +273,26 @@ td{
 .reflectionSection6{
     grid-column: 3/4;
     grid-row: 5;
+    margin: 12px;
+}
+.reflectionSection7{
+    grid-column: 2/3;
+    grid-row: 6;
+    margin: 12px;
+}
+.reflectionSection8{
+    grid-column: 3/4;
+    grid-row: 6;
+    margin: 12px;
+}
+.reflectionSection9{
+    grid-column: 2/3;
+    grid-row: 7;
+    margin: 12px;
+}
+.reflectionSection10{
+    grid-column: 3/4;
+    grid-row: 7;
     margin: 12px;
 }
 .container4>.theNextPage{
