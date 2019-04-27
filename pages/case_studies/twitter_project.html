@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case study</title>
+    <!--all pages are styled in one CSS-->
+    <link rel="stylesheet" href="../../CSS%20and%20JS/port.css">
+    <link rel="stylesheet" href="../../CSS%20and%20JS/animate.css">
+    <script src="../../CSS%20and%20JS/jQuery.js"></script>
+</head>
+<!--portfolio projects page-->
+<body class="projectsPage">
+<div class="caseStudyContainer">
+    <!--header with page title and nav bar-->
+    <header class="navClass">
+        <h4 class="animated fadeIn">Mock Twitter</h4>
+        <a href="../projects.html">Back to Projects</a>
+    </header>
+    <!--image-->
+    <section class="mainImage">
+        <img class="caseStudyImage"
+             src="../../imported%20files/twitter_project/loggedIn.png"
+             alt="placeholder image">
+    </section>
+    <!--details sidebar-->
+    <section class="detailsSidebar">
+        <p>Date: </p>
+        <p>April 2019</p>
+        <p>Programs: </p>
+        <p>Mongo DB, Express/Node JS, React</p>
+    </section>
+    <!--quick facts sidebar-->
+    <section class="quickFacts">
+        <p>This mock twitter was a three day project as a part of the CodeCrew Code School curriculum. The project
+            applies basic
+            usage of the MERN stack to recreate a simplified version of twitter </p>
+        <br>
+        <br>
+        <p><a href="#">View </a>the project</p>
+        <p>Access the <a href="#">GitHub Repo</a></p>
+    </section>
+    <!--description of content on page-->
+    <section class="description">
+        <p>The Mock Twitter project is a simplified version of twitter created using the MERN stack. Users can create a
+            twitter account and login thanks to backend strategies. They can also add tweets to their account and edit
+            those tweets once published through react forms. Tweets can be marked as private or public by the user. They
+            can view and edit their tweets and account information from their profile page or view tweets made by other
+            users on the home page. If a user is not logged in they can view up to five tweets on the home page that
+            have been marked as public by the user the created said tweet.
+        </p>
+        <p>
+            This project relied heavily on passport authentication on the backend to make signing up, logging in, or
+            logging out quick and easy. All user information, including their tweets, is stored as objects in the Mongo
+            Database. Testing out the backend functionally on Postmon was integral to the timely and somewhat efficient
+            completion of this project by three day deadline.
+        </p>
+    </section>
+    <!--examples/screenshots/any supporting info-->
+    <div class="caseStudyContainer2">
+        <!--supporting image1-->
+        <section class="sideImage1">
+            <img class="caseStudyImage"
+                 src="../../imported%20files/twitter_project/profileImages.png"
+                 alt="">
+        </section>
+        <!--supporting text1-->
+        <section class="sideText1">
+            <p>
+                A new user creates a twitter account by submitting a form with username, password, profile image, and
+                background image. Both images are fetched from the database and displayed on the user's profile page.
+                The background image is masked in to a long rectangle and floated behind the profile image that is
+                masked into a circle. The mask and float provide uniformity across the profile pages and mimic twitter's
+                profile page layout.
+            </p>
+        </section>
+        <!--supporting image2-->
+        <section class="sideImage2">
+            <img class="caseStudyImage"
+                 src="../../imported%20files/twitter_project/editForm.png"
+                 alt="">
+        </section>
+        <!--supporting text2-->
+        <section class="sideText2">
+            <p>
+                Each user is able the edit their tweets on their profile by clicking the 'edit' link. The link renders a
+                react component inline with a populated update form. All images are being handled as image url's for
+                this project and the option of a public or private tweet is chosen by checking or un-checking the box.
+                Once edited the user can click 'update tweet' to submit the form and the message 'tweet updated' will
+                display in place of the form.
+            </p>
+        </section>
+        <!--supporting image3-->
+        <section class="sideImage3">
+            <img class="caseStudyImage"
+                 src="../../imported%20files/twitter_project/search.png"
+                 alt="">
+        </section>
+        <!--supporting text3-->
+        <section class="sideText3">
+            <p>
+                Users can search tweets by clicking the 'Search' link in the navigation bar. This link routes to a react
+                component with a simple form that sends the users search to the backend where a partial search is
+                completed.The results are sent back the front end and formatted in the same style as the tweets when
+                displayed on the home page and user profile. Any tweet that contains the word searched for will be
+                returned.
+            </p>
+        </section>
+    </div>
+    <!--next/previous page button-->
+    <footer class="theNextPage">
+        <a href="wiki_project.html">
+            <button><img class="resizeThisIcon" src="../../icons/previousPage.png" alt="downarrow"></button>
+        </a>
+    </footer>
+    <footer class="thePreviousPage">
+        <a href="#">
+            <button><img class="resizeThisIcon" src="../../icons/nextPage.png" alt="downarrow"></button>
+        </a>
+    </footer>
+</div>
+<script src="../../CSS%20and%20JS/port.js"></script>
+</body>
+</html>
